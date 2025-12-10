@@ -1,7 +1,7 @@
 'use strict'
 
 const async = require('async')
-const Base = require('bfx-facs-base')
+const Base = require('@bitfinex/bfx-facs-base')
 const _LRU = require('lru')
 
 class LRU extends Base {
